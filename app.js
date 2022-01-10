@@ -1,1 +1,9 @@
-console.log ("Hola LGG");
+const express = require('express');
+
+const app = express();
+
+app.get('/', function(req, res) {res.send('Hola LGG'); });
+
+app.listen(3000);
+
+//localhost:3000
