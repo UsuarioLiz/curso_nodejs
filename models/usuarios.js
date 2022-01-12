@@ -17,5 +17,7 @@ const usuariosQueries = {
     usuarios
     WHERE
     status = 1
-    `
-}
+    `,
+};
+
+module.exports = usuariosQueries;
